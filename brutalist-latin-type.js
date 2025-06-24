@@ -33,7 +33,6 @@ function setup() {
   textSize(boxSize - 10); // positioning of the main letter before distortion
   textAlign(CENTER, CENTER); // positioning the main letter before distortion
   createLetterBoxes(); // function for letter boxes
-
 }
 
 
