@@ -33,6 +33,7 @@ function setup() {
   textSize(boxSize - 10); // positioning of the main letter before distortion
   textAlign(CENTER, CENTER); // positioning the main letter before distortion
   createLetterBoxes(); // function for letter boxes
+
 }
 
 
@@ -56,6 +57,13 @@ function createLetterBoxes() {
 
 function draw() {
   background(255); // colour of canvas
+
+  textSize(30);
+  text("Brutalist inspired letters", width/2, 50);
+  textSize(20);
+  text("Choose a letter", width/1.25, 930);
+  text("Distort by dragging the body of the letter", width/1.25, 965);
+
 
   // draw the distorted letter
   if (selectedLetter !== null && distortedPoints.length > 0) {
