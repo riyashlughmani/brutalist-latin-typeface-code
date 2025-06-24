@@ -59,6 +59,8 @@ function draw() {
 
   textSize(30);
   text("Brutalist inspired letters", width/2, 50);
+  textSize(17);
+  text("Riyash Lughmani", width/2, 100);
   textSize(20);
   text("Choose a letter", width/1.25, 930);
   text("Distort by dragging the body of the letter", width/1.25, 965);
