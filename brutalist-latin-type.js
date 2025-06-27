@@ -58,7 +58,7 @@ function draw() {
   background(255); // colour of canvas
 
   textSize(30);
-  text("Brutalist inspired letters", width/2, 50);
+  text("Distortion of Brutalist inspired letters", width/2, 50);
   textSize(17);
   text("Riyash Lughmani", width/2, 100);
   textSize(20);
